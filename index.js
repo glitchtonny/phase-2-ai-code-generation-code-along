@@ -8,5 +8,5 @@
  */
 
 function filterByGenre(genre, books){
-    return
+    return books.filter(book => book.genre === genre);
 }
